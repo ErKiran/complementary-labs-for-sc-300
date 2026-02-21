@@ -1,0 +1,15 @@
+version: 1.0,,,,,,,,,
+Name [displayName] Required,User principal name [userPrincipalName] Required,Initial password [passwordProfile] Required,Block sign in (Yes/No) [accountEnabled] Required,First name [givenName],Last name [surname],Job title [jobTitle],Department [department],Usage location [usageLocation],Manager
+Ethan Sharma,esharma@acquiredco.onmicrosoft.com,047@1SXVP%ImsX,No,Ethan,Sharma,Software Developer,AcquiredCo,IN,
+Noah White,nwhite@acquiredco.onmicrosoft.com,Uuhr4h&@m6b3mp,No,Noah,White,Software Developer,AcquiredCo,IN,
+David Brown,dbrown@acquiredco.onmicrosoft.com,Su590uT1cwpnzX,No,David,Brown,Software Developer,AcquiredCo,US,
+Liam Sharma,lsharma@acquiredco.onmicrosoft.com,anXjRTpM#ZfTIm,No,Liam,Sharma,Tech Lead,AcquiredCo,US,
+Arjun Williams,awilliams@acquiredco.onmicrosoft.com,l0Td8BCXyAix*d,No,Arjun,Williams,Project Manager,AcquiredCo,US,
+Daniel Thomas,dthomas@acquiredco.onmicrosoft.com,PGE$fJ@dz3GIzd,No,Daniel,Thomas,Security Engineer,AcquiredCo,US,ChrisG@parentorg.onmicrosoft.com
+Aisha White,awhite@acquiredco.onmicrosoft.com,w$1T1@xg6xaub#,No,Aisha,White,Client Support,AcquiredCo,US,
+Rohan Jackson,rjackson@acquiredco.onmicrosoft.com,XOfQrLQuEaRkUJ,No,Rohan,Jackson,Client Support,AcquiredCo,US,
+Chris Williams,cwilliams@acquiredco.onmicrosoft.com,kBSartG7*YoqCJ,No,Chris,Williams,Business Developer,AcquiredCo,US,
+Sneha Wilson,swilson@acquiredco.onmicrosoft.com,&gsBU2%&0tT1t#,No,Sneha,Wilson,Business Developer,AcquiredCo,US,
+Ryan Wilson,rwilson@acquiredco.onmicrosoft.com,g4FQ*1fA6jbAbf,No,Ryan,Wilson,Business Developer,AcquiredCo,US,
+Maya Jackson,mjackson@acquiredco.onmicrosoft.com,aduFhg&QmpoLdP,No,Maya,Jackson,Business Developer,AcquiredCo,US,
+Lucas Wilson,lwilson@acquiredco.onmicrosoft.com,E9i!QEFbGdXA#g,No,Lucas,Wilson,Business Developer,AcquiredCo,US,
