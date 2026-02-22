@@ -4,8 +4,6 @@ $clientSecret="csc"
 
 $domain = "mydomain"
 
-$appName = "myapp"
-
 $secureSecret = ConvertTo-SecureString $clientSecret -AsPlainText -Force
 
 $credentials = New-Object System.Management.Automation.PSCredential($clientId, $secureSecret)
