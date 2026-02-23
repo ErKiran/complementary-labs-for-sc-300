@@ -2,11 +2,11 @@
 
 **Build the “Merger Wave” user set (bulk onboarding)**
 
-The sample users from the company merger has been imagined and documented in the [CSV](csv.ps1) File. This is the exact template from the Microsoft Lab I have added attributes such as company, manager, roles and so on.
+The sample users from the company merger has been imagined and documented in the [CSV](users.csv) File. This is the exact template from the Microsoft Lab I have added attributes such as company, manager, roles and so on.
 
-Those users can be onboarded with the automation. I have used a [powershell script](csv.ps1) to onboard the users from the CSV files and established a direct manager relation for one of the users. 
+Those users can be onboarded with the automation. I have used a [powershell script](onboardingAutomation.ps1) to onboard the users from the CSV files and established a direct manager relation for one of the users. 
 
-![manager](manager.png)
+![manager](evidences/manager.png)
 ## Task 2:
 
 **Design a least-privilege admin plan (role mapping)**
@@ -21,7 +21,7 @@ I have imagined a security engineer role in the acquisation users and planning t
 
 The Parent Co. already have a security group which has the Cloud App Admin role permission. Instead, of adding a manual role or permission to each user I would add the Security Engineer to that Security Group.
 
-![group](group.png)
+![group](evidences/group.png)
 
 
 But, as the requirement is a **least-priviledge role**, just enough role to perform the duty, I found a Application Admin role which adhere to the principle of the least priviledge. 
@@ -43,32 +43,32 @@ Cloud App Admin Vs Application Admin
 
 Adding the Security Engineer to Admin group
 
-![add-admin-member](add-admin-member.png)
+![add-admin-member](evidences/add-admin-member.png)
 
 ## Task-3
 **Implement time-bound admin access**
 
 Now, I will use the user with the Tech Lead role and make him a backup admin with PIM and JIT.
 
-![eligible](eligible_assignment_pim.png)
+![eligible](evidences/eligible_assignment_pim.png)
 
 Backup admin has the permission same as the Application admin but for a limited time. i.e. 1hours for now
 
-![mfa](mfa.png)
+![mfa](evidences/mfa.png)
 
 ### Testing the assignments 
 
 MFA prompt appears when try to login to the priviledge users 
 
-![mfa_prompt](mfa_prompt.png)
+![mfa_prompt](evidences/mfa_prompt.png)
 
 With Eligible Permission
 
-![per](with_temp_permission.png)
+![per](evidences/with_temp_permission.png)
 
 Once I removed the Eligible Permission the user should be able to able to create a application
 
-![!per](without_temp_permission.png)
+![!per](evidences/without_temp_permission.png)
 
 This completes the privilege boundary negative and positive testing.
 
