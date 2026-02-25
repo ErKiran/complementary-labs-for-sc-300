@@ -1,0 +1,42 @@
+{
+  "OrganizationName": "Contoso",
+  "TenantID": "tid",
+  "DomainList": [
+    {
+      "Capabilities": "Email, OfficeCommunicationsOnline",
+      "IsDefault": true,
+      "IsInitial": true,
+      "Name": "contoso.onmicrosoft.com",
+      "Type": "Managed"
+    },
+    {
+      "Capabilities": "None",
+      "IsDefault": false,
+      "IsInitial": false,
+      "Name": "contoso.work",
+      "Type": "Managed"
+    },
+    {
+      "Capabilities": "None",
+      "IsDefault": false,
+      "IsInitial": false,
+      "Name": "sales.contoso.work",
+      "Type": "None"
+    },
+    {
+      "Capabilities": "None",
+      "IsDefault": false,
+      "IsInitial": false,
+      "Name": "vendors.contoso.work",
+      "Type": "None"
+    }
+  ],
+  "Contact": [
+    "superadmin.contoso@outlook.com"
+  ],
+  "Country": "US",
+  "PrivacyProfile": {
+    "ContactEmail": "",
+    "StatementUrl": "https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/blob/master/Allfiles/Labs/Lab2/SC-300-Lab_ContosoPrivacySample.pdf"
+  }
+}
