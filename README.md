@@ -44,7 +44,7 @@ Start here (official lab instructions):
 
 ### Challenge 5 (C-5)
 - Challenge: `challenges/lab-5.md`
-- Link: https://github.com/ErKiran/complementary-labs-for-sc-300/blob/main/challenges-5/lab-5.md
+- Link: https://github.com/ErKiran/complementary-labs-for-sc-300/blob/main/challenges/lab-5.md
 
 ### Solution 5 (S-5)
 - Solution: `solution/challenges-5/Readme.md`
