@@ -31,8 +31,24 @@ Start here (official lab instructions):
 - Link: https://github.com/ErKiran/complementary-labs-for-sc-300/blob/main/challenges/lab-1.md
 
 ### Solution 1 (S-1)
-- Solution: `solution/challenges-1/challenges-1.md`
-- Link: https://github.com/ErKiran/complementary-labs-for-sc-300/blob/main/solution/challenges-1/challenges-1.md
+- Solution: `solution/challenges-1/Readme.md`
+- Link: https://github.com/ErKiran/complementary-labs-for-sc-300/blob/main/solution/challenges-1/Readme.md
+
+### Challenge 2 (C-2)
+- Challenge: `challenges/lab-2.md`
+- Link: https://github.com/ErKiran/complementary-labs-for-sc-300/blob/main/challenges/lab-1.md
+
+### Solution 2 (S-2)
+- Solution: `solution/challenges-2/Readme.md`
+- Link: https://github.com/ErKiran/complementary-labs-for-sc-300/blob/main/solution/challenges-2/Readme.md
+
+### Challenge 5 (C-5)
+- Challenge: `challenges/lab-5.md`
+- Link: https://github.com/ErKiran/complementary-labs-for-sc-300/blob/main/challenges-5/lab-5.md
+
+### Solution 5 (S-5)
+- Solution: `solution/challenges-5/Readme.md`
+- Link: https://github.com/ErKiran/complementary-labs-for-sc-300/blob/main/solution/challenges-5/Readme.md
 
 ---
 

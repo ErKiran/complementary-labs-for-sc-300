@@ -1,0 +1,4 @@
+version:v1.0,,,
+Email address to invite [inviteeEmail] Required,Redirection url [inviteRedirectURL] Required,Send invitation message (true or false) [sendEmail],Name of invitee [inviteeName]
+redacted1@gmail.com,https://myapplications.microsoft.com?tenantid=tid,TRUE,Guest User 1
+redacted2@gmail.com,https://myapplications.microsoft.com?tenantid=tid,TRUE,Guest User 2
