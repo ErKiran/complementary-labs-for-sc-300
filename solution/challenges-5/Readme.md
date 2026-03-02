@@ -74,7 +74,7 @@ Here is the changelog from Microsoft:
 
  ### Automation 
 
- It's more of similar to the User Create automation. 
+ It's similiar  to the User Create automation. 
 
  References: https://learn.microsoft.com/en-us/entra/external-id/b2b-quickstart-invite-powershell
 
@@ -85,3 +85,23 @@ Here is the changelog from Microsoft:
  Guest manager audit log 
 
  ![auditLog](evidences/guest-manager-audit.png)
+
+**What exactly gets created in Entra the moment you send an invitation—before the user accepts it—and why does that matter for audits and cleanup?** 
+
+When we send a invitation to the guest user, Entra immediately creates a guest users in a directory with `#EXT` extension. It also creates a Invitation Record with a URL and a redeem status.
+
+For the audits, it provides a trail of the invitation and successful redemption/sign on.
+
+For cleanup, the invitated records doesn't stale or auto deleted itself, they will accumulate until and unless we review and delete them.
+
+**Why is the “redirect URL” a security-relevant setting, not just a convenience setting?** Describe one misuse scenario and how you’d prevent it. 
+
+redirectURL in a OAuth2.0 is security critical because IdP sends a authorization code to the redirectURL, the code is short lived, redeemed once to get the tokens. If attacker or malicious user tweak the redirectURL and redeem them before the legimate users they can get the token. 
+
+To prevent such attack strict redirectURL matching is must, no explicit wildcard allowed. Furthermore, PKCE and authorization codeflow enhances the security.
+
+**Least privilege reasoning:** For PowerShell/Graph invitations, compare `User.Invite.All` vs `User.ReadWrite.All`. Why is one safer, and when might you still need the broader one? 
+
+Adhering to the principle of Least priviledge, for the user invitatoion `User.Invite.All` is more appropriate because it's scoped to inviting the guest user. 
+
+`User.ReadWrite.All` has broad permission of managing the users by app read and update user profiles across the org. This will increase the blast radius in case of compromise.
