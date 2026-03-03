@@ -44,13 +44,5 @@ By the end, you will have:
 ## Knowledge Check (For you to answer in a brief summary)
 
 1. **Federation vs. “just inviting a guest”:** What security and user-experience difference do you get when Google federation is configured correctly (especially around extra verification / redemption flow)?
-2. **Control plane question:** Why is “allowing Google as an IdP” *not* sufficient by itself—what specific risks remain if you don’t restrict domains and who can invite? ([Microsoft Learn][2])
-3. **Policy behavior:** If you apply Conditional Access to guests, what are the main gotchas for external users, and how would you justify your policy choice (MFA requirement, device signals, sign-in frequency) for a vendor workforce? ([Microsoft Learn][4])
+2. **Control plane question:** Why is “allowing Google as an IdP” *not* sufficient by itself—what specific risks remain if you don’t restrict domains and who can invite? 
 
-## Hint (If needed)
-
-* Microsoft doc on **Google federation for External Identities** (workforce/B2B): ([Microsoft Learn][5])
-* Microsoft doc on **Conditional Access for external users** (important considerations): ([Microsoft Learn][4])
-* Microsoft doc on **external collaboration settings** and **B2B sign-in logs**: ([Microsoft Learn][3])
-
-If you want, I can also give you a **submission checklist** (screenshots + log fields to capture + a 1-page “design rationale” template) so your write-up looks like real IAM engineer evidence.

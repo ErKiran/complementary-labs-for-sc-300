@@ -50,6 +50,14 @@ Start here (official lab instructions):
 - Solution: `solution/challenges-5/Readme.md`
 - Link: https://github.com/ErKiran/complementary-labs-for-sc-300/blob/main/solution/challenges-5/Readme.md
 
+### Challenge 6 (C-6)
+- Challenge: `challenges/lab-6.md`
+- Link: https://github.com/ErKiran/complementary-labs-for-sc-300/blob/main/challenges/lab-6.md
+
+### Solution 6 (S-6)
+- Solution: `solution/challenges-6/Readme.md`
+- Link: https://github.com/ErKiran/complementary-labs-for-sc-300/blob/main/solution/challenges-6/Readme.md
+
 ---
 
 ## What You’ll Practice (SC-300 + Job Skills)
